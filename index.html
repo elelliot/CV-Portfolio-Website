@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elliot M.</title>
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/ios-filled/100/000000/pet-commands-train.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body id="home">
+    <header>
+      <!-- Navbar y comportamientos -->
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+            <!-- 
+              INICIO ORIGINAL a la izquierda alejado de la navbar
+              <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Inicio</a> -->
+                <!-- Material Icon de Toggle Sidebar -->
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <!-- El Smooth-Scroll está en main.js (Para que el SmoothScroll funcione, usar en el href el #(nombre del div al que quieres scrollear, normalmente son el div principal)) -->
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+    <!-- Estos 2 primeros divs se cierran casi al final de la página -->
+    <div class="page-content">
+      <div>
+<!-- Profile -->
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <!-- Imagen de fondo de Profile (Kamurocho) -->
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
+      <div class="container">
+        <div class="content-center">
+
+          <!-- Imagen de perfil sin <a> para que no haya pulsaciones ni sea "clickeable" -->
+          <div class="cc-profile-image"><img src="images/elliot.jpg" alt="Image"/></div>
+
+          <!-- 
+            <div class="cc-profile-image"><a href="#"><img src="images/anthony.jpg" alt="Image"/></a></div> 
+          -->
+          <div class="h2 title">Hello there! I'm Elliot Miranda</div>
+          <p class="category text-white">Systems Engineer, Web Developer</p>
+          <!-- <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a> -->
+          <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1wZQLye-h4tNWIegPVGHZjgVVvLozhNqm?usp=sharing" target="_blank" rel="noopener noreferrer" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">
+            <i class="fa fa-cloud-download dcv-icon" aria-hidden="true"></i>Download CV</a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          
+          <div class="button-container">
+            <!-- Social Round Buttons, tooltip-inner es una clase del main.css que cambia el estilo del texto que sale en el hover de estos botones
+                 rel ="toolkit" es el que me lo deja así, pero por alguna razón al poner noopener y noreferrer me cancela el tooltip,  documentacion de Bootstrap dice que lo ponga con data-toggle y data-pacement cambia la orientacion  -->
+            <a class="btn btn-default btn-round btn-lg btn-icon redondo" href="https://github.com/elelliot" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" data-placement="bottom" title ="Some of my humble developing journey ^u^">
+              <i class="fa fa-github"></i>
+            </a>
+            <a class="btn btn-default btn-round btn-lg btn-icon redondo" href="https://www.linkedin.com/in/elliot-miranda-huitron-518a6713a/" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" data-placement="bottom" title="Haven't dust it off yet xp">
+              <i class="fa fa-linkedin"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About -->
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">About</div>
+            <p>Hello!, name's Elliot Miranda. I am Systems Engineer from University of Sonora.</p>
+            <p>I am currently training my Web Development skills (focused on the Front-End atm) while i search for an Entry Level or 
+              Internship Job opportunity where i can develop them.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="row">
+              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+              <div class="col-sm-8">27</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-8">elliot158094@gmail.com</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+              <div class="col-sm-8">6622027600</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+              <div class="col-sm-8">Villa de Seris, Hermosillo, Sonora</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+              <div class="col-sm-8">Spanish, English</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Skills -->
+<div class="section" id="skill">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Some Professional Skills</div>
+    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">HTML</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">Intermediate</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">CSS</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value">Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value">Intermediate</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">PHP</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 35%;"></div><span class="progress-value">Begineer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">React</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 51%;"></div><span class="progress-value">Intermediate</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Jest/Enzyme</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 52%;"></div><span class="progress-value">Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Portfolio -->
+<div class="section" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ml-auto mr-auto">
+        <div class="h4 text-center mb-4 title">Portfolio</div>
+
+        <!-- Navegación de Iconos de Portfolio -->
+        <div class="nav-align-center">
+          <ul class="nav nav-pills nav-pills-primary" role="tablist">
+            <!-- Link desactivado con clase nolink por qué no lo wa usar xp -->
+            <li class="nav-item"><a class="nav-link active nolink" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+            
+            <!-- Dejamos solo el botón de laptop de arriba (Se queda activado con fondo verde)  -->
+            <!-- <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li> -->
+          
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Galería Portfolio -->
+    <div class="tab-content gallery mt-5">
+      <div class="tab-pane active" id="web-development">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <!-- Columna 1 -->
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <a href="https://zealous-wright-feaed2.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <figure class="cc-effect"><img src="images/frontendblogcafe.png" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Responsive Cofee Blog Template</div>
+                      <p>Front-End with HTML, CSS and JavaScript</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <a href="https://fervent-stonebraker-4ccdb9.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <figure class="cc-effect"><img src="images/frontendstore.png" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Responsive Store Template</div>
+                      <p>Front-End with HTML and CSS, CRUD funcions and login with PHP and MySQL </p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+            <!-- Columna 2 -->
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <a href="https://elliotstarterpage.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <figure class="cc-effect"><img src="images/freelancerpage.png" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Responsive Freelancer Template Page</div>
+                      <p>Front-End with HTML and CSS</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <a href="https://github.com/stars/elelliot/lists/react" target="_blank" rel="noopener noreferrer">
+                  <figure class="cc-effect"><img src="images/githubReactRep.png" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">React</div>
+                      <p>Some of my React course projects (npm, git basics, Hooks, Jest/Enzyme, React-Router-Dom). Course in Progress therefore more to be added as well !</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <a href="https://musicfesttemp.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <figure class="cc-effect"><img src="images/MusicFest.png" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">MusicFest</div>
+                      <p>Responsive Music Fest Landing Page with HTML,SCSS,JavaScript & Gulp</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Esta galería se muestra al dar click al segundo botón del Portfolio (Solo necesito uno por lo que los comenté)
+      <div class="tab-pane" id="graphic-design" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Triangle Pattern</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Abstract Umbrella</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Cube Surface Texture</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Abstract Line</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Esta galería se muestra con el 3er botón del Portfolio -->
+      <!-- <div class="tab-pane" id="Photography" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Wedding Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Beach Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Nature Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</div>
+<!-- Aquí termina el Portfolio -->
+
+
+<!-- Experiencia (Laboral) -->
+<!-- <div class="section" id="experience">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Work Experience</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>March 2016 - Present</p>
+            <div class="h5">CreativeM</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Front End Developer</div>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>April 2014 - March 2016</p>
+            <div class="h5">WebNote</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Web Developer</div>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>April 2013 - February 2014</p>
+            <div class="h5">WEBM</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Intern</div>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- Fin de Experiencia -->
+
+<!-- Educación -->
+<div class="section">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Education</div>
+    
+    <!-- Étapa de la educación, Copiar la sección para crear otra -->
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2015-2021</p>
+            <div class="h5">University of Sonora</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Systems Engineering</div>
+            <p class="category">Bachelor's Degree</p>
+            <!-- <p>Hola Crayola</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin de Étapa -->
+
+  </div>
+</div>
+
+
+<!-- Referencias -->
+<!-- <div class="section" id="reference">
+  <div class="container cc-reference">
+    <div class="h4 mb-4 text-center title">References</div>
+    <div class="card" data-aos="zoom-in">
+      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
+          <li data-target="#cc-Indicators" data-slide-to="1"></li>
+          <li data-target="#cc-Indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-1.jpg" alt="Image"/>
+                <div class="h5 pt-2">Aiyana</div>
+                <p class="category">CEO / WEBM</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg" alt="Image"/>
+                <div class="h5 pt-2">Braiden</div>
+                <p class="category">CEO / Creativem</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg" alt="Image"/>
+                <div class="h5 pt-2">Alexander</div>
+                <p class="category">CEO / Webnote</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- Fin de referencias -->
+
+<!-- Contacto, podría usarlo pero nah -->
+<!-- <div class="section" id="contact">
+  <div class="cc-contact-information" style="background-image: url('images/staticmap.png')">
+    <div class="container">
+      <div class="cc-contact">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="card mb-0" data-aos="zoom-in">
+              <div class="h4 text-center title">Contact Me</div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <form action="https://formspree.io/your@email.com" method="POST">
+                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <p class="mb-0"><strong>Address </strong></p>
+                    <p class="pb-2">140, City Center, New York, U.S.A</p>
+                    <p class="mb-0"><strong>Phone</strong></p>
+                    <p class="pb-2">+1718-111-0011</p>
+                    <p class="mb-0"><strong>Email</strong></p>
+                    <p>anthony@company.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- Fin de contacto -->
+
+  <!-- Aquí terminan los primeros dos divs que empezarón al terminar el header (page-content y div vacío) -->
+</div></div> 
+
+<!-- De donde es este div? idk -->
+    <!-- </div> -->
+    <footer class="footer">
+      <div class="container text-center">
+        <a class="cc-facebook btn btn-link" href="https://github.com/elelliot" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x " aria-hidden="true"></i></a>
+        <a class="cc-twitter btn btn-link " href="https://www.linkedin.com/in/elliot-miranda-huitron-518a6713a/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin fa-2x " aria-hidden="true"></i></a>
+      <!-- <div class="h4 title text-center">Anthony Barnett</div> -->
+      <div class="text-center text-muted">
+        <p>&copy; Creative CV. All rights reserved.<br>
+          <a class="credit" href="https://templateflip.com/templates/creative-cv/">Design</a> - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a><br>
+          <a target="_blank" href="https://icons8.com/icon/117108/pet-commands-train">Pet Commands Train</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        </p>
+      </div>
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+  </body>
+</html>
